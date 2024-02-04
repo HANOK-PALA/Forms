@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example of Forms in HTML</title>
+    </head>
+<body>
+    <form>
+        <h1 align="center" style="color:red"><i>Sports Center - Application</i></h1>
+
+        <!--text, password and submit type-->
+        <h3><u>Enter Your Login Details</u></h3>
+            <label>User Name : </label>
+                <input type"text"> <br> <br>
+            <label for"pwd">Pasword : </label>
+                <input type="password" id="pwd" name="pwd"> <br><br>
+                <input type="submit">     <br>    <br>
+            
+            <h3><u>Please fill below fields</u></h3><br>
+            <label>First Name : </label>
+            <input type"text"> <br> <br>
+            <label>Last Name : </label>
+            <input type"text"> <br><br>
+        <!--Date Type-->
+            <label for="Birthday">Date of Birth :</label>
+            <input type="date" id="Birthday" name="Birthday"><br><br>
+        <!--Radio Type-->   
+            <label> What is your mother tongue:</label><br>
+
+                <input type="radio" value="Telugu" id="Telugu" name="Language" >
+                <label for="Telugu">Telugu</label><br>
+                <input type="radio" value="Kannada" ID=" Kannada" Name="Language">
+                <label for="kannada">Kannada</label><br>
+                <Input type="radio" value="Others" ID="Others" Name="Language"
+                <label for="Others"> Others </label> <br><br>
+                
+        <!--Checkbox Type-->  
+            <lable> What are your favorite sports:</lable><br>
+
+                <input type="checkbox" value="Cricket" id="Cricket" name="Sports1" >
+                 <label for="Cricket">Cricket</label><br>
+                <input type="checkbox" value="Football" ID="Football" Name="Sports2">
+                <label for="Football">Football</label><br>
+                 <Input type="Checkbox" value="Tennis" ID="Teniss" Name="Sports3"
+                <label for="Tennis">Tennis</label>  <br><br>     
+
+        <!--Email-->
+        <label for ="email">Email: </label>
+        <input type="email" Value="email@gmail.com" Id = "email" Name=" email"><br><br>
+        
+        <label for="mobile">Mobile Number</label>
+        <input Type="text" value="please enter 10 digits" ID="mobile" Name="Mobile"> <br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
